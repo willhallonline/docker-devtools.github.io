@@ -17,7 +17,7 @@ Then open http://localhost:4000/docker-devtools.github.io/ in your browser. Jeky
 
 ## Deployment
 
-Pushes to `master` are built and deployed automatically to GitHub Pages via the workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml), using GitHub's official `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages` actions.
+Pushes to `main` are built and deployed automatically to GitHub Pages via the workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml), using GitHub's official `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages` actions.
 
 To enable this the first time, in the repository **Settings → Pages**, set the **Source** to **GitHub Actions**.
 
